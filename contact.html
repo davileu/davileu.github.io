@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link rel="icon" href="favicon (2).ico">
+    <script src="https://kit.fontawesome.com/e44e98b865.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Davi L.</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a class="active" href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+
+        <form>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"> <i class="fa-solid fa-user"></i> Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fa-solid fa-phone"></i> Phone No.</label>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fa-regular fa-envelope"></i> Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
+                <p id="result"></p>
+
+
+            </div>
+            <script src="contact.js"></script>
+            <button type="submit"> <a href="mailto: davileung819@gmail.com">SUBMIT</a></button>
+
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
